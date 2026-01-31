@@ -8,7 +8,7 @@ export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs}'],
     languageOptions: {
-      globals: globals.node,
+      globals: globals.node
     },
     plugins: { prettier },
     rules: {
@@ -16,8 +16,8 @@ export default defineConfig([
       semi: ['error', 'never'],
       indent: ['error', 2],
       'prettier/prettier': 'error',
-      camelcase: ['error', { properties: 'always' }],
+      camelcase: ['error', { properties: 'always' }]
     },
-    extends: [js.configs.recommended, configPrettier],
-  },
+    extends: [js.configs.recommended, configPrettier]
+  }
 ])
