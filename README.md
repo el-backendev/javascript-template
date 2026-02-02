@@ -1,6 +1,6 @@
 # JavaScript Starter Template
 
-[![CI](https://github.com/el-backendev/javascript-template/actions/workflows/ci.yml/badge.svg)](https://github.com/el-backendev/javascript-template/actions/workflows/ci.yml)
+[![CI](https://github.com/el-backendev/nodejs-template/actions/workflows/ci.yml/badge.svg)](https://github.com/el-backendev/nodejs-template/actions/workflows/ci.yml)
 
 Minimal template for JavaScript development with ESLint + Prettier formatting.
 
